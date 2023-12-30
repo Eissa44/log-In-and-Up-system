@@ -28,8 +28,7 @@ body {
   font-family: "Titillium Web", sans-serif;
 }
 
-#signinEmail,
-#signinPassword {
+.groupBtn {
   background-color: transparent !important;
   color: #fff !important;
 }

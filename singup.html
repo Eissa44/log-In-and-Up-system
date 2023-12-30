@@ -20,8 +20,8 @@
           <div class="input-field d-flex align-items-center mt-4">
             <i class="fa-solid fa-user text-white me-3"></i>
             <input
-              id="signinEmail"
-              class="form-control"
+              id="signupName"
+              class="form-control groupBtn"
               placeholder="Enter your name"
               type="text"
             />
@@ -31,8 +31,8 @@
             <!-- <i class="fa-solid fa-user text-white me-3"></i> -->
             <i class="fa-solid fa-envelope text-white me-3"></i>
             <input
-              id="signinEmail"
-              class="form-control"
+              id="signupEmail"
+              class="form-control groupBtn"
               placeholder="Enter your email"
               type="text"
             />
@@ -41,20 +41,23 @@
           <div class="input-field d-flex align-items-center my-4">
             <i class="fa-solid fa-key text-white me-3"></i>
             <input
-              id="signinPassword"
-              class="form-control"
+              id="signupPassword"
+              class="form-control groupBtn"
               placeholder="Enter your password"
               type="password"
             />
           </div>
+          <p
+            id="errorMassage"
+            class="text-center text-success fw-bold fs-4"
+          ></p>
 
-          <p id="incorrect " class="text-center">
-            <span class="text-danger m-3">All inputs is required</span>
-          </p>
-          <button class="btn btn-outline-info w-100 my-3">Login</button>
-          <p class="text-white text-center">
-            Don't have an account?
-            <a class="text-white" href="sinup.html">Sign Up</a>
+          <button class="btn btn-outline-info w-100 my-3" id="logUpBtn">
+            Sing up
+          </button>
+          <p class="text-white text-center mt-2">
+            You have an account?
+            <a class="text-white" href="index.html">Sign in</a>
           </p>
         </div>
       </form>
