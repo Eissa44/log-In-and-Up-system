@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: rgb(11, 0, 36); */
+  background: linear-gradient(
+    150deg,
+    rgba(11, 0, 36, 1) 42%,
+    rgba(71, 9, 121, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/*  */
+/*  */
+
+.group {
+  box-shadow: -5px 2px 54px -9px rgb(51, 95, 122);
+  border-color: #2bdefa !important;
+}
+
+.primary-head {
+  color: #2bdefa;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#signinEmail,
+#signinPassword {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255) !important;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titillium path -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrsp path -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- Font Awesome path -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- CSS path -->
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Sing in and Sing up Form</title>
+  </head>
+  <body>
+    <div class="container pt-5">
+      <form class="">
+        <div class="group w-75 mx-auto p-5 border border-2 rounded-4">
+          <h1 class="primary-head text-center py-3">Smart Login System</h1>
+
+          <div class="input-field d-flex align-items-center mt-4">
+            <!-- <i class="fa-solid fa-user text-white me-3"></i> -->
+            <i class="fa-solid fa-envelope text-white me-3"></i>
+            <input
+              id="signinEmail"
+              class="form-control"
+              placeholder="Enter your email"
+              type="text"
+            />
+          </div>
+
+          <div class="input-field d-flex align-items-center my-4">
+            <i class="fa-solid fa-key text-white me-3"></i>
+            <input
+              id="signinPassword"
+              class="form-control"
+              placeholder="Enter your password"
+              type="password"
+            />
+          </div>
+
+          <p id="incorrect " class="text-center">
+            <span class="text-danger m-3">All inputs is required</span>
+          </p>
+          <button class="btn btn-outline-info w-100 my-3" id="loginBtn">
+            Login
+          </button>
+          <p class="text-white text-center">
+            Don't have an account?
+            <a class="text-white" href="sinup.html">Sign Up</a>
+          </p>
+        </div>
+      </form>
+    </div>
+    <!-- Bootstrap Js path -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- Main Js path -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
